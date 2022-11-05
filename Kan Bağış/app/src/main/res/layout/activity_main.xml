@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/et_isim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EF0808"
+            android:ems="10"
+            android:hint="Bağışcı Adı"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_yas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F30808"
+            android:ems="10"
+            android:hint="Yaş Giriniz"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_kan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#A33B3B"
+            android:ems="10"
+            android:hint="Kan Grubu"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#853030"
+            android:ems="10"
+            android:hint="Telefon Numarası"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_sehir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#F69E9E"
+            android:ems="10"
+            android:hint="Yaşadığı Şehir"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_kaydet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#E4574B"
+            android:text="Kaydet" />
+
+        <Button
+            android:id="@+id/btn_Guncelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#EDEDE7"
+            android:text="Güncelle" />
+
+        <Button
+            android:id="@+id/btn_Sil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AACCE6"
+            android:text="Sil" />
+
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#FFFFFF" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
